@@ -5,3 +5,24 @@ h1 {
 body {
     font-family: 'Ubuntu', sans-serif;
 }
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#image-container {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0;
+  }
+  
+  #image-container img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
